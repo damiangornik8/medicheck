@@ -1,0 +1,7 @@
+Was not sure what to upload for this part so just included the .bin folder from my Ganache blockchain,
+
+includes:
+
+- build
+- contracts
+- migrations

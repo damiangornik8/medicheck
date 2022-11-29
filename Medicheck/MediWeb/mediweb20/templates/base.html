@@ -1,0 +1,83 @@
+
+<!DOCTYPE html>
+
+<head>
+    <meta charset="utf-8">
+    <title>{% block title %} Mediweb {% endblock %} </title>
+</head>
+
+
+<body>
+    <main>
+        {% block content  %}
+        {%  endblock  %}
+
+    </main>
+
+    
+
+</body>
+
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+
+<style>
+
+
+    .content {
+      margin: 0 auto;
+      max-width: 992px;
+      padding: 20px;
+      
+      @media (min-width: 1024px) {
+        display: flex;
+        flex-direction: row-reverse;
+        flex-wrap: wrap;
+        gap: 30px;
+      }
+    }
+    
+    .main-content {  
+      @media (min-width: 1024px) {
+        flex: 1;
+      }
+    }
+    
+    .sub-content {  
+      @media (min-width: 1024px) {
+        align-self: flex-start;
+        background-color: #f1f1f1;
+        margin: 10px 0 20px;
+        padding: 20px;
+        position: sticky;
+        top: 25px;
+        width: 300px;
+      }
+    }
+    
+    header,
+    footer {
+      background-color: #e1e1e1;
+      padding: 20px;
+    }
+    
+    header {
+      height: 300px;
+    }
+    
+    footer {
+      height: 2000px;
+    }
+    
+    
+    </style>
+    
+
+</html>
+
+
+
+
+
+

@@ -1,0 +1,2 @@
+Save block - used to write user data to local ganache blockchain from the app
+Contract Interaction - used to interact with ERC20 contract for the purpose of purchasing and spending Medi-Coin in app

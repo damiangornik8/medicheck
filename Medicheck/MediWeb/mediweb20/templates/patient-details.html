@@ -1,0 +1,54 @@
+{%   extends  'base.html'  %}
+
+
+
+
+{% block content %}
+
+
+{% include 'navbar.html' %}
+
+
+<div class="card mb-3">
+    <div class="card-header">
+      <i class="fa fa-table"></i> Patient Details </div>
+    <div class="card-body">
+
+
+  
+   
+    <form action="{% url 'update-patient-details' %}" method="post">
+      {% csrf_token %}  
+
+<div class="form-group">  {{ patient.firstName }} {{  patient.lastName }} </div>
+<p>Patient ID:</p>
+
+<div class="form-group"> 
+<input readonly type="text" id="patientID" name="patientID" placeholder="Email..." value="{{patientID}}"class="form-control"> </div>
+
+   
+<h1> PATIENT DETAILS</h1>
+
+
+<div class="form-group"> Email:  {{  patient.emailAddress }}</div>
+
+<div class="form-group"> Contact Number: {{ patient.phoneNumber }} </div>
+
+<div class="form-group"> Home Address: {{ patient.address }} </div>
+
+<div class="form-group"> Date of Birth: {{ patient.DOB }} </div>
+
+<div class="row justify-content-center my-3 px-3">         
+  <button type="submit" class="btn-block btn-color" >Update Details </button>
+</div>
+  
+                  
+</form>
+
+
+</div>
+<div class="card-footer small text-muted"></div>
+</div>
+
+{%  endblock  %}
+

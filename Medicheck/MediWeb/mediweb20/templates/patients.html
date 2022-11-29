@@ -1,0 +1,101 @@
+{%   extends  'base.html'  %}
+
+
+
+
+{% block content %}
+
+
+{% include 'navbar.html' %}
+
+
+  
+   
+    
+
+
+    
+    
+     
+<!-- Example DataTables Card-->
+<div class="card mb-3">
+    <div class="card-header">
+      <i class="fa fa-table"></i> Your Patients </div>
+    <div class="card-body">
+      <div class="table-responsive">
+        <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+          <thead>
+            <tr>
+              <th>
+
+              
+
+                
+              
+              </th>
+
+
+            </tr>
+          </thead>
+          <tfoot>
+            <tr>
+
+            </tr>
+          </tfoot>
+          <tbody>
+
+            
+
+          
+
+            {% if patientsList %}
+                
+                {% for e in patientsList %}
+
+                <form action="{% url 'patient-details' %}" method="post">
+                  {% csrf_token %}  
+                              <div class="row justify-content-center my-auto">
+                                  <div class="col-md-8 col-10 my-5">
+      <div class="form-group">  {{ e.firstName }} {{  e.lastName }} </div>
+      <p>Patient ID:</p>
+
+      <div class="form-group"> 
+        <input readonly type="text" id="patientID" name="patientID" placeholder="Email..." value="{{e.patientID}}"class="form-control"> </div>
+
+
+
+
+      <div class="row justify-content-center my-3 px-3">         
+        <button type="submit" class="btn-block btn-color" >See More Details </button>
+      </div>
+              
+                                  </div>
+                              </div>
+                          </form>
+                
+
+               
+
+             
+                  
+
+                {% endfor %}
+                
+              {% else %}
+                There are no records in the system
+              {% endif %}
+
+
+          
+         
+
+
+          </tbody>
+        </table>
+      </div>
+    </div>
+    <div class="card-footer small text-muted">Footer </div>
+  </div>
+
+{%  endblock  %}
+

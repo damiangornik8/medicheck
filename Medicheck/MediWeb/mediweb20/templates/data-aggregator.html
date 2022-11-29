@@ -1,0 +1,61 @@
+{%   extends  'base.html'  %}
+
+
+
+
+{% block content %}
+
+
+{% include 'navbar.html' %}
+
+  
+   
+<div class="card mb-3">
+    <div class="card-header">
+      <i class="fa fa-table"></i> Data Aggregator  </div>
+    <div class="card-body">
+
+    </br> 
+      <h6> Choose a patient from the list below, to aggregate a new patient data into a dataset </h6>
+    </br> 
+
+    <form action="{% url 'data-aggregator-post' %}" method="post">
+      {% csrf_token %}
+   <div class="form-group"> 
+     <label class="form-control-label text-muted">Username</label> 
+
+     <select name="patient_from_dropdown" class="form-control">
+      {% for patient in patientsList %}
+      
+               <option id="patient_chosen" name="patient_chosen" value="{{ patient.patientID}}">{{ patient.firstName}} {{ patient.lastName}} (Patient ID: {{ patient.patientID}} ) (Email Address: {{ patient.emailAddress}} )</option>
+      {% endfor %}
+            </select>
+    
+    </div>
+
+          <div class="row justify-content-center my-3 px-3">        
+             <button type="submit" class="btn-block btn-color" onclick = "myFunction()" name='mybtn2' 
+             value={{excel_path}}>Aggregate Data</button>
+                         
+                  </div>
+              </form>
+
+              <div> {{ result }}</div>
+              
+   
+
+
+        
+    </div>
+    <div class="card-footer small text-muted"></div>
+  </div>
+
+
+
+
+
+
+
+{%  endblock  %}
+
+
