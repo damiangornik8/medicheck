@@ -1,12 +1,12 @@
 {
   "type": "service_account",
-  "project_id": "mediweb-94472",
-  "private_key_id": "71bd82934898aa22d249e53fe835a137e4cdb4a9",
-  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDYULJ/29UE3ns4\nOlQsFeblx5SbhYZr5neODGqb8M7FEXaYNK3b6kndXHEgIl63DDyFkw+eF7puNmVF\n0Bnz7zEsTaS0YC7BJmHmLdgVb2kPKNpyQ0JOhs7/MZvx1SHxln2PWSYxICObzOqn\nnwXayuhzVCL18zTaf3ixUCBiVI8H0Yl75WoQyO9NOpqTbCFJoKqpGaQAyXsct/pw\nDZiAIKl4Twfsa/dwGjQx/6l1uF8oSHGPoJ1DfyESkxGusBmqC/vWdG6FWZJD6z9D\naMW174KzHrT+qn7q2Rxrh9W5BxosPLovVEElm0FmSb1phCZc/LoHD7oXo9Nyp3wM\n5lEabFehAgMBAAECggEAUgKCMgxXnhF1ONOQXuhs0jfQ5QeB9314XR/i+T0aP0eI\nJVtvgL06BNULxImTTCW0+lVPafoIAcnYqlejx0Ira+cB5yrB/xN8sUY3MqU6+Pbd\nns1WIaxlZQXbYBuUU2HhN4wueRh8t5BAdI1LLHCaIUNIP+PVaXNDgEHnDTCOy4DY\nfzgH4Jwa74boeuiTSQ3hOF0UlkpOofqYVTMfGtA5TeK/VYiPc+fnB7w48b8xVjhO\nh4HL2SQbnmCzPHGUmbifozLsf231WL8dP6j4leC6XFAgGb2HBstILOd5oppUIbi1\nsi92QFU90yR9mYZncPlCvbi2478WWQ5LO133BAvBWwKBgQDvdbBE3HqaLRISe1yC\nqvrdPH7KgqfPkiBR7vu81q3TQLvGYjbkne8u6SWksQa7F8lhbSpQj6u6/8c9ARS1\nzcZk0ssrEhqlTZngAVRuzJZ/iyMc1LaGym559BZwwYEXqwincX7lloW+Kx3J1+ue\nAIFzS5fMTo+Yl2aVdQBnqJNXXwKBgQDnQb/3IG5hXqOQE2Sf6qXhzTSF8zVlfzHV\nQNw8myD55WqeIJL/iexOKx50ySS83YOqgACHmLaT7E9sQMvPT19W1kzpzuN8iop+\nUdNinMfrWZ5wNuCLewaAsMjBXvKvqSqPGl2KquSCOP1CfIU9enjmMN/l3ijkYoYJ\nr0I69smw/wKBgQC3Evo923bckuLDQI9c003SgSLKvxN/Tc/p9FWAbX0eCtrE9GfV\nZ63q5pNCE5n6xlfPZb+5Me5wnIb96+qiiH1KriJofoHiqa6gJUQhJcdWIdEphLM7\n4F6QXH4fnMGOj9Og+NO0wdzkpGA05iCcfvR5amzW5aVBW1cxou85URe87wKBgD1J\n/q9nR/nEVEMF8MA1Nxt+ADKT/43TxQhItVXWo0m3lKct6OeSzS72XI8FFBh9+LxC\nSmGlhpXzpiUBk0JxPcpM53t72mySZxwNYaGb/ZwRV11UHfS5eUK4F6ywFk+Z3O6q\nRSpQGlms8uohCEr/33TadSx90Yad2fpNGZd4+oFPAoGAV/78rkvEtrgyH7wCyEda\neEAC66+sn2CLmgd+Fghrooe/bwarZlGSsnCidChEmok4km+rqberulUKBLcKj34q\n33TGgugdcn892moSsk2d91s7N3ai0nYe7lkXwg4EDystb2OzWODOEV7X6NUuMrO7\nHVOHw7SxaBvrSOurXudhEas=\n-----END PRIVATE KEY-----\n",
-  "client_email": "firebase-adminsdk-8wm6m@mediweb-94472.iam.gserviceaccount.com",
-  "client_id": "108028922300248022963",
-  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
-  "token_uri": "https://oauth2.googleapis.com/token",
-  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
-  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-8wm6m%40mediweb-94472.iam.gserviceaccount.com"
+  "project_id": "",
+  "private_key_id": "",
+  "private_key": "",
+  "client_email": "",
+  "client_id": "",
+  "auth_uri": "",
+  "token_uri": "",
+  "auth_provider_x509_cert_url": "",
+  "client_x509_cert_url": "",
 }
